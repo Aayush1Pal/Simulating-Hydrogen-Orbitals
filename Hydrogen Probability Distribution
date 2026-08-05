@@ -1,0 +1,21 @@
+The complex hydrogen wave function is given by 
+$$
+\psi_{n,l,m}(r, \theta, \phi) = R_{n,l}(r) \, Y_{l,m}(\theta, \phi)
+$$
+where the radial part is
+$$
+R_{n,l}(r) = -\sqrt{ \left(\frac{2Z}{n a_0}\right)^3 \frac{(n-l-1)!}{2n [(n+l)!]^3} } \, e^{-\rho/2} \, \rho^l \, L_{n+l}^{2l+1}(\rho)
+$$
+and rho is 
+$$
+\rho = \frac{2Z}{n a_0} r
+$$.
+
+The spherical part oof the complex hydrogen eigenstate is desccribes by $$
+Y_{l,m}(\theta, \phi) = (-1)^m \sqrt{\frac{(2l+1)}{4\pi} \frac{(l-m)!}{(l+m)!}} \, P_l^m(\cos\theta) \, e^{im\phi}
+$$.
+The real orbitals are given by $$
+\psi_{n,l,|m|, +} = \frac{1}{\sqrt{2}} \left( \psi_{n,l,-m} + (-1)^m \psi_{n,l,m} \right) \propto P_l^m(\cos\theta) \cos(|m|\phi)
+$$ for positive real orbitals and $$
+\psi_{n,l,|m|, -} = \frac{1}{i\sqrt{2}} \left( \psi_{n,l,-m} - (-1)^m \psi_{n,l,m} \right) \propto P_l^m(\cos\theta) \sin(|m|\phi)
+$$ for negative real orbitals
